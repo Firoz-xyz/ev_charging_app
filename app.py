@@ -13,8 +13,8 @@ def optimized_ev_charging(plug_in_time, current_soc, target_soc, full_charge_min
 
     pricing_intervals = [
         {"start": "06:00", "end": "18:00", "price": 9.0},
-        {"start": "18:00", "end": "00:00", "price": 12.5},
-        {"start": "00:00", "end": "06:00", "price": 10.0}
+        {"start": "18:00", "end": "22:00", "price": 12.5},
+        {"start": "22:00", "end": "06:00", "price": 10.0}
     ]
 
     available_intervals = []
